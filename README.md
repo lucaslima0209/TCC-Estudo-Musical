@@ -1,4 +1,4 @@
-# TCC-Estudo-Musical
+# TCC Estudo Musical
 Trabalho Conclusivo de Curso – Estudo Musical
 
 Desenvolvedores: Lucas Gabriel de Lima Almeida (lucas.lima0209.lg@gmail.com) e Melissa Gabrielly Batista da Silva (melissagabriellyd@gmail.com)
