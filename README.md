@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-!
-=======
+
 # Trabalho Conclusivo de Curso – Estudo Musical
 
 **Desenvolvedores**:
@@ -11,4 +9,3 @@
 * Wagner Faria de Souza (wagner.souza@ifpr.edu.br)
 
 **Link [Google Drive](https://drive.google.com/drive/folders/1P6U7-6_5R_N-JCqc-n9GN992Dz_TntCm)**
->>>>>>> e836c30454ccddc3c4d1daa386ebe3ebb30c3942
