@@ -53,6 +53,7 @@ function atualizarPagina (tipoAtualizacao) {
 
     botaoCadastrar.style.display = "block";
     botaoEntrar.style.display = "none";
+    //teste
   }
 }
 
