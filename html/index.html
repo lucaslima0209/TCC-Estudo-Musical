@@ -1,51 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index-movement.css">
-    <link rel="stylesheet" href="../css/index-elements.css">
-    <title>-</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index-elements.css">
+  <title>Document</title>
 </head>
 <body>
-   
-  <div class="oblique">
-    <div class="main-block-oblique skew-block">
+  <main>
+    <div class="form-box">
+      <form>
+        <p class="texto-login">Login</p>
+        <p class="texto-cadastro">Cadastro</p>
 
-      <div class="skew-block-repeat">
-        <a href="#">
-          <div class="oblique-inner">
-            <div class="image-wrapper">
-              <div class="main-image">
-                <img src="../img/img1.jpg" class="image-img" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="oblique-caption caption-top">
-            <h2>Facial</h2>
-            <button href="#">Discover</button>
-          </div>
-        </a>
-      </div>
+        <p class="titulo-email">E-mail</p>
+        <input type="email" class="input-field field-email">
 
-      <div class="skew-block-repeat">
-        <a href="#">
-          <div class="oblique-inner">
-            <div class="image-wrapper">
-              <div class="main-image">
-                <img src="../img/img1.jpg" class="image-img" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="oblique-caption caption-top">
-            <h2>Cosmetics</h2>
-            <button href="#">Discover</button>
-          </div>
-        </a>
-      </div>
+        <p class="titulo-nome" >Nome</p>
+        <input type="email" class="input-field field-nome">
 
+        <p class="titulo-senha">Senha</p>
+        <input type="password" class="input-field field-senha">
+
+        <p class="titulo-confirmar-senha">Confirmar senha</p>
+        <input type="password" class="input-field field-confirmar-senha">
+
+    
+        <button type="button" class="botao-cadastrar">Cadastrar</button>
+        <button type="button" class="botao-entrar">Entrar</button>
+      </form>
     </div>
-  </div>
+    <div>
+      <button type="button" class="att att-entrar" onclick="atualizarPagina('entrar')">Entrar</button>
+      <button type="button" class="att att-cadastrar" onclick="atualizarPagina('cadastrar')">Criar conta</button>
+    </div>
+  </main>
+
+  <script src="../script/index.js"></script>
 </body>
 </html>
