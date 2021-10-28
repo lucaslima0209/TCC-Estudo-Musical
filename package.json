@@ -1,0 +1,20 @@
+{
+  "name": "tcc-estudo-musical",
+  "version": "1.0.0",
+  "description": "Trabalho Conclusivo de Curso – Estudo Musical",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslima0209/TCC-Estudo-Musical.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaslima0209/TCC-Estudo-Musical/issues"
+  },
+  "homepage": "https://github.com/lucaslima0209/TCC-Estudo-Musical#readme"
+}
