@@ -2,7 +2,7 @@
   "name": "tcc-estudo-musical",
   "version": "1.0.0",
   "description": "Trabalho Conclusivo de Curso – Estudo Musical",
-  "main": "index.js",
+  "main": "server.cjs",
   "scripts": {
     "start": "node ."
   },
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/lucaslima0209/TCC-Estudo-Musical/issues"
   },
-  "homepage": "https://github.com/lucaslima0209/TCC-Estudo-Musical#readme"
+  "homepage": "https://github.com/lucaslima0209/TCC-Estudo-Musical#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^9.4.0",
+    "pg": "^8.7.1"
+  }
 }

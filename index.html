@@ -15,20 +15,20 @@
         <p class="texto-cadastro">Cadastro</p>
 
         <p class="titulo-email">E-mail</p>
-        <input type="email" class="input-field field-email">
+        <input type="email" class="input-field field-email" required>
 
         <p class="titulo-nome" >Nome</p>
-        <input type="email" class="input-field field-nome">
+        <input type="text" class="input-field field-nome">
 
         <p class="titulo-senha">Senha</p>
-        <input type="password" class="input-field field-senha">
+        <input type="password" class="input-field field-senha" required>
 
         <p class="titulo-confirmar-senha">Confirmar senha</p>
         <input type="password" class="input-field field-confirmar-senha">
 
     
-        <button type="button" class="botao-cadastrar">Cadastrar</button>
-        <button type="button" class="botao-entrar">Entrar</button>
+        <button class="botao-cadastrar">Cadastrar</button>
+        <button class="botao-entrar" onClick="acessarMenu();">Entrar</button>
       </form>
     </div>
     <div>
@@ -36,7 +36,7 @@
       <button type="button" class="att att-cadastrar" onclick="atualizarPagina('cadastrar')">Criar conta</button>
     </div>
   </main>
-
-  <script src="script/index.js"></script>
+  <script src="server.cjs"></script>
+  <script src="script/index.cjs"></script>
 </body>
 </html>
