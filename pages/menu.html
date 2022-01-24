@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/menu-elements.css">
-  <title>Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
 </head>
 <body>
-  <header>
-    <h3>Bem-vindo(a), Melissa!</h3>
-  </header>
-  <main>
-      <div>
-        <p>Ranking</p>
-        <p>Módulos</p>
-        <p>Ranking</p>
-      </div>
-      <div class="center">
-        <button>Iniciar Curso</button>
-      </div>
-  </main>
+    <div class="sidebar">
+        <div>
+            <p onclick="irPerfil();">Perfil</p> 
+            <p onclick="irModulo();">Módulos</p> 
+            <p onclick="irRanking();">Ranking </p> 
+        </div> 
+    </div>
+    <main>
+        <h1>Bem-vindo(a), Estudante!</h1>
+        <button>Continuar de onde parou</button>
+    </main>
+    <script src="../script/sidebar.js"></script>
 </body>
 </html>

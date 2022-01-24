@@ -1,0 +1,42 @@
+html, body{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 15px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto{
+    background-color: grey;
+    border-radius: 100%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.informacoes-extra{
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+.progresso-modulos{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.progresso-modulos div{
+    padding: 4px;
+}
+
+.progresso-modulos label{
+    font-size: 20px;
+}

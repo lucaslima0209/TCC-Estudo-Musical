@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inherit;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.conteudo {
+
+    padding: 15px;
+    text-align: start;
+}
+
+.conteudo h2{
+    font-size: 30px;
+}
+
+.conteudo p{
+    font-size: 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulos</title>
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/pag-modulos.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+            <p onclick="irPerfil();">Perfil</p> 
+            <p onclick="irModulo();">Módulos</p> 
+            <p onclick="irRanking();">Ranking </p> 
+        </div> 
+    </div>
+    <main>
+        <div class="modulo-box concluido" onclick="acessarModulo(1);">
+            <h1>Módulo 1</h1>
+            <ul>
+                <li>breve definição e contexto histórico</li>
+                <li>elementos mais importantes da música</li>
+                <li>definição de som, tipos sonoros e prioridades do som</li>
+            </ul>
+        </div>
+        <div class="modulo-box concluido" onclick="acessarModulo(2);">
+            <h1>Módulo 2</h1>
+            <ul>
+                <li>figuras musicais</li>
+                <li>figuras de som e silêncio</li>
+                <li>números representativos</li>
+            </ul>
+     
+        </div>
+        <div class="modulo-box concluido" onclick="acessarModulo(3);">
+            <h1>Módulo 3</h1>
+            <ul>
+                <li>Compassos</li>
+                <li>Barras de compassos</li>
+                <li>Fórmulas de compasso</li>
+                <li>Acentuação métrica</li>
+            </ul>
+        </div>
+        <div class="modulo-box atual" onclick="acessarModulo(4);">
+            <h1>Módulo 4</h1>
+            <li>Pentagramas</li>
+            <li>Claves</li>
+            <li>Notas Musicais</li>
+            <li>Linhas e espaços suplementares</li>
+            <li>Linhas de oitava</li>
+        </div>
+        <div class="modulo-box bloqueado">
+            <h1>Módulo 5</h1>
+           
+        </div>
+    </main>
+    <script src="../script/sidebar.js"></script>
+    <script src="../script/pag-modulos.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/pag-perfil.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+            <p onclick="irPerfil();">Perfil</p> 
+            <p onclick="irModulo();">Módulos</p> 
+            <p onclick="irRanking();">Ranking </p> 
+        </div> 
+    </div>
+    <main>
+        <div class="informacoes">
+            <div class="foto"></div>
+            <div class="informacoes-extra">
+                <h1>Nome do Estudante</h1>
+                <h3>2º lugar - 320 pontos </h4>
+            </div>
+        </div>
+        <div class="progresso-modulos">
+            <h2>Progresso nos módulos</h2>
+            <div>
+                <input type="checkbox" name="modulo-1" id="modulo-1" value="Módulo 1" onClick="return false" checked>
+                <label for="modulo-1">Módulo 1</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="modulo-2" id="modulo-2" value="Módulo 2" onClick="return false" checked>
+                <label for="modulo-2">Módulo 2</label>
+            </div>
+            <div>
+                <input type="checkbox" name="modulo-3" id="modulo-3" value="Módulo 3" onClick="return false" checked>
+                <label for="modulo-3">Módulo 3</label>
+            </div>
+            <div>
+                <input type="checkbox" name="modulo-4" id="modulo-4" value="Módulo 4" onClick="return false" checked>
+                <label for="modulo-4">Módulo 4</label>
+            </div>
+            <div>
+                <input type="checkbox" name="modulo-5" id="modulo-5" value="Módulo 5" onClick="return false">
+                <label for="modulo-5">Módulo 5</label>
+            </div>
+        </div>
+    </main>
+    <script src="../script/sidebar.js"></script>
+</body>
+</html>
