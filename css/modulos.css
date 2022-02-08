@@ -3,9 +3,24 @@
   padding: 0;
 }
 
+img{
+  width: auto;
+  height: 150px;
+}
+
+a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
 header {
   display: inherit;
-  padding: 5px;
   background-color: black;
   color: white;
 }
