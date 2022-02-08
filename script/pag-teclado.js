@@ -33,3 +33,4 @@ window.addEventListener("keydown", playNote);
 
 
 //fonte: https://codepen.io/gabrielcarol/pen/rGeEbY
+//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
