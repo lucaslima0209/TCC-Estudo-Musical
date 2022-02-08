@@ -1,41 +1,42 @@
-html, body{
-    width: 100%;
+html,
+body {
+  width: 100%;
 }
 
 .cadeado {
-    width: auto;
-    height: 60px;
+  width: auto;
+  height: 60px;
 }
 
-main{
-    padding: 15px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.modulo-box{
-    margin: 5px;
-    min-height: 100px;
-    min-width: 350px;
-    padding: 35px;
-    background-color: grey;
-    border-radius: 45px;
+.modulo-box {
+  margin: 5px;
+  min-height: 250px;
+  min-width: 500px;
+  padding: 35px;
+  background-color: grey;
+  border-radius: 45px;
 }
 
 .concluido {
-    background-color: rgb(98, 255, 98);
+  background-color: rgb(98, 255, 98);
 }
 
 .atual {
-    background-color: rgb(255, 255, 93);
+  background-color: rgb(255, 255, 93);
 }
 
 .bloqueado {
-    opacity: 35%;
+  opacity: 35%;
 }
 
-.modulo-box:hover{
-    cursor: pointer;
-} 
+.modulo-box:hover {
+  cursor: pointer;
+}

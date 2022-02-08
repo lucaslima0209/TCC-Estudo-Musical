@@ -1,42 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index-elements.css">
-  <title>TCC</title>
-</head>
-<body>
-  <main>
-    <div class="form-box">
-      <form>
-        <p class="texto-login">Login</p>
-        <p class="texto-cadastro">Cadastro</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <p class="titulo-email">E-mail</p>
-        <input type="email" class="input-field field-email" required>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/index-elements.css" />
 
-        <p class="titulo-nome" >Nome</p>
-        <input type="text" class="input-field field-nome">
+    <title>TCC</title>
+  </head>
+  <body>
+    <main>
+      <div class="form-box">
+        <form>
+          <p class="texto-login">Login</p>
+          <p class="texto-cadastro">Cadastro</p>
 
-        <p class="titulo-senha">Senha</p>
-        <input type="password" class="input-field field-senha" required>
+          <p class="titulo-email">E-mail</p>
+          <input type="email" class="input-field field-email" required />
 
-        <p class="titulo-confirmar-senha">Confirmar senha</p>
-        <input type="password" class="input-field field-confirmar-senha">
+          <p class="titulo-nome">Nome</p>
+          <input type="text" class="input-field field-nome" />
 
-    
-        <button class="botao-cadastrar">Cadastrar</button>
-        <button class="botao-entrar" onClick="acessarMenu();">Entrar</button>
-      </form>
-    </div>
-    <div>
-      <button type="button" class="att att-entrar" onclick="atualizarPagina('entrar')">Entrar</button>
-      <button type="button" class="att att-cadastrar" onclick="atualizarPagina('cadastrar')">Criar conta</button>
-    </div>
-  </main>
-  <script src="server.cjs"></script>
-  <script src="script/index.cjs"></script>
-</body>
+          <p class="titulo-senha">Senha</p>
+          <input type="password" class="input-field field-senha" required />
+
+          <p class="titulo-confirmar-senha">Confirmar senha</p>
+          <input type="password" class="input-field field-confirmar-senha" />
+
+          <button class="botao-cadastrar">Cadastrar</button>
+          <button class="botao-entrar" onClick="acessarMenu();">Entrar</button>
+        </form>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="att att-entrar"
+          onclick="atualizarPagina('entrar')"
+        >
+          Entrar
+        </button>
+        <button
+          type="button"
+          class="att att-cadastrar"
+          onclick="atualizarPagina('cadastrar')"
+        >
+          Criar conta
+        </button>
+      </div>
+    </main>
+    <script src="server.cjs"></script>
+    <script src="script/index.cjs"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
